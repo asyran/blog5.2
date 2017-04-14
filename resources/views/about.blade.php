@@ -9,6 +9,12 @@
 
                 <div class="panel-body">
                     You are logged in!
+
+                    power ranggers
+
+                    dragon ball
+
+                    ayam
                 </div>
             </div>
         </div>
