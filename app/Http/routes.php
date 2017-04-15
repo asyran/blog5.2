@@ -24,3 +24,5 @@ Route::get('/about','AboutController@about');
 
 Route::get('/post',['as' => 'post.index','uses'=>'PostController@showAllPost']);
 
+Route::resource('/blog','BlogController');
+
