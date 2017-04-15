@@ -48,7 +48,11 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
+                    <li><a href="{{ url('/post') }}">Post</a></li>
+                    @if (Auth::check())
+                    @else
                     <li><a href="{{ url('/about') }}">About</a></li>
+                    @endif
                 </ul>
 
                 <!-- Right Side Of Navbar -->
