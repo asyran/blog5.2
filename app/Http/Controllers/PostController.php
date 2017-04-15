@@ -9,8 +9,8 @@ use App\Http\Requests;
 class PostController extends Controller
 {
     //
-    public function showAllPost
-    {
+    public function showAllPost()
+        {
     	return view ('post');
-    }
+   		}
 }
