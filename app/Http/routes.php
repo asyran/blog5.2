@@ -22,5 +22,5 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/about','AboutController@about');
 
-
+Route::get('/post',['as' => 'post.index','uses'=>'PostController@showAllPost']);
 
