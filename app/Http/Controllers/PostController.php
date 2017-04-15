@@ -11,6 +11,6 @@ class PostController extends Controller
     //
     public function showAllPost
     {
-    	return
+    	return view ('post');
     }
 }
